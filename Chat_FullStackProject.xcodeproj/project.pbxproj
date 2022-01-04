@@ -22,6 +22,7 @@
 		C3881BE727838AC90044727C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3881BE627838AC90044727C /* RegisterViewController.swift */; };
 		C3881BE927838AE60044727C /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3881BE827838AE60044727C /* NewConversationViewController.swift */; };
 		C3881BEB27838B070044727C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3881BEA27838B070044727C /* ProfileViewController.swift */; };
+		C3881BED2784CF6E0044727C /* TableViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3881BEC2784CF6E0044727C /* TableViewController1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +51,7 @@
 		C3881BB2278385130044727C /* Chat_FullStackProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chat_FullStackProject.xcdatamodel; sourceTree = "<group>"; };
 		C3881BB4278385150044727C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3881BB7278385150044727C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C3881BB9278385150044727C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3881BB9278385150044727C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = others/Info.plist; sourceTree = "<group>"; };
 		C3881BBE278385150044727C /* Chat_FullStackProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chat_FullStackProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3881BC2278385150044727C /* Chat_FullStackProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat_FullStackProjectTests.swift; sourceTree = "<group>"; };
 		C3881BC8278385160044727C /* Chat_FullStackProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chat_FullStackProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +62,7 @@
 		C3881BE627838AC90044727C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		C3881BE827838AE60044727C /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		C3881BEA27838B070044727C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C3881BEC2784CF6E0044727C /* TableViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,10 @@
 		C3881BA7278385130044727C /* Chat_FullStackProject */ = {
 			isa = PBXGroup;
 			children = (
+				C3881BAE278385130044727C /* Main.storyboard */,
+				C3881BB4278385150044727C /* Assets.xcassets */,
+				C3881BB6278385150044727C /* LaunchScreen.storyboard */,
+				C3881BB9278385150044727C /* Info.plist */,
 				C3881BDB278386F40044727C /* Controllers */,
 				C3881BE1278389AE0044727C /* others */,
 				C3881BE0278387D00044727C /* LogReg */,
@@ -145,6 +151,7 @@
 				C3881BE627838AC90044727C /* RegisterViewController.swift */,
 				C3881BE827838AE60044727C /* NewConversationViewController.swift */,
 				C3881BEA27838B070044727C /* ProfileViewController.swift */,
+				C3881BEC2784CF6E0044727C /* TableViewController1.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -176,7 +183,6 @@
 		C3881BDF278387B30044727C /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				C3881BAE278385130044727C /* Main.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -192,9 +198,6 @@
 			isa = PBXGroup;
 			children = (
 				C3881BB1278385130044727C /* Chat_FullStackProject.xcdatamodeld */,
-				C3881BB9278385150044727C /* Info.plist */,
-				C3881BB6278385150044727C /* LaunchScreen.storyboard */,
-				C3881BB4278385150044727C /* Assets.xcassets */,
 				C3881BC1278385150044727C /* Chat_FullStackProjectTests */,
 				C3881BCB278385160044727C /* Chat_FullStackProjectUITests */,
 			);
@@ -339,6 +342,7 @@
 				C3881BB3278385130044727C /* Chat_FullStackProject.xcdatamodeld in Sources */,
 				C3881BE327838A840044727C /* ConversationViewController.swift in Sources */,
 				C3881BEB27838B070044727C /* ProfileViewController.swift in Sources */,
+				C3881BED2784CF6E0044727C /* TableViewController1.swift in Sources */,
 				C3881BA9278385130044727C /* AppDelegate.swift in Sources */,
 				C3881BAB278385130044727C /* SceneDelegate.swift in Sources */,
 			);
@@ -517,6 +521,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -524,6 +529,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -544,6 +550,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -551,6 +558,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
